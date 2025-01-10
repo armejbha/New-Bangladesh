@@ -10,6 +10,7 @@ body{
     font-family: fira-sans;
 }
 /* common style  */
+/* text-color  */
 .color-one{
     color: rgb(14, 14, 14);
 }
@@ -20,14 +21,24 @@ body{
     color: rgb(0, 106, 80);
 }
 
+/* background  */
+.bg-one{
+    background:rgb(198, 228, 214);
+}
+.bg-two{
+    background: rgb(0, 106, 80);
+}
+
+/* button    */
 .btn-one{ 
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0%;
     padding: 10px 30px 10px 30px;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
+    outline:none;
 }
 
 /* header and main width  */
@@ -42,6 +53,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom:40px;
 }
 nav .nav-title{
     color: rgb(14, 14, 14);
@@ -49,4 +61,42 @@ nav .nav-title{
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0%;
+}
+
+/* banner section style  */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap:50px;
+    border-radius: 20px;
+    padding:60px 80px;
+}
+
+.banner-title{ 
+    font-size: 24px;
+    font-family: fira-sans;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    opacity: 0.5;
+    margin-top:45px;
+    margin-bottom:20px;
+}
+
+.banner-subtitle{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    margin-bottom:25px;
+
+}
+.banner button{
+    font-size:18px;
+}
+.banner img{
+    width: 450px;
+    height:350px;
 }
