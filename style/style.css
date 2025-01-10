@@ -5,10 +5,10 @@
     margin:0;
     padding:0; 
 }
-
 body{
     font-family: fira-sans;
 }
+
 /* common style  */
 /* text-color  */
 .color-one{
@@ -32,6 +32,7 @@ body{
 /* button    */
 .btn-one{ 
     font-size: 16px;
+    font-family: fira-sans;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0%;
@@ -72,11 +73,11 @@ nav .nav-title{
     gap:50px;
     border-radius: 20px;
     padding:60px 80px;
+    height:400px;
 }
 
 .banner-title{ 
     font-size: 24px;
-    font-family: fira-sans;
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 0%;
@@ -86,9 +87,9 @@ nav .nav-title{
 }
 
 .banner-subtitle{
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 50px;
     letter-spacing: 0%;
     margin-bottom:25px;
 
@@ -99,4 +100,57 @@ nav .nav-title{
 .banner img{
     width: 450px;
     height:350px;
+}
+
+
+/* future vision section style  */
+.vision-content{
+    margin-top:120px;
+}
+
+.vision-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+.vision-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-top:24px;
+    margin-bottom: 32px;
+}
+
+.vision-card-container{
+    display: flex;
+    gap:20px;
+}
+
+.vision-card{
+    width: 396px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding:30px;
+}
+
+.vision-card-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity:0.8;
+    margin-top:26px;
+    margin-bottom:12px;
+}
+
+.vision-card-description{      
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity:0.7;
+    margin-bottom:24px;
 }
