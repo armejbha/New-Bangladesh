@@ -214,10 +214,10 @@ nav .nav-title{
 }
 .quote{
     position:absolute;
-    top:10px;
+    top:15px;
     left:21px;
     width: 50px;
-    height:60px;
+    height:50px;
     background:url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -264,7 +264,6 @@ nav .nav-title{
     line-height: 38px;
     opacity:0.8;
 }
-
 .date-time{
     display: flex;
     gap:20px;
@@ -449,7 +448,7 @@ nav .nav-title{
     border-radius: 0px 10px 10px 0px;
     background: rgb(0, 106, 80);
     transition: 
-    background-color 0.2 ease-in-out;
+    background-color 0.2s ease-in-out;
     ;
 }
 .search-btn:hover{
