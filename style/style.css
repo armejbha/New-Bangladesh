@@ -33,20 +33,18 @@ body{
 /* button    */
 .btn-one{ 
     font-size: 16px;
-    font-family: fira-sans;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
     padding: 10px 30px 10px 30px;
-    border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     outline:none;
+    border:none;
 }
 
 /* header and main width  */
 
 header,main{
-    max-width: 80%;
+    max-width:80%;
     margin:20px auto;
 }
 
@@ -58,11 +56,9 @@ nav{
     margin-bottom:40px;
 }
 nav .nav-title{
-    color: rgb(14, 14, 14);
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
-    letter-spacing: 0%;
 }
 
 /* banner section style  */
@@ -81,7 +77,6 @@ nav .nav-title{
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    letter-spacing: 0%;
     opacity: 0.5;
     margin-top:45px;
     margin-bottom:20px;
@@ -91,12 +86,18 @@ nav .nav-title{
     font-size: 48px;
     font-weight: 700;
     line-height: 50px;
-    letter-spacing: 0%;
     margin-bottom:25px;
 
 }
 .banner button{
     font-size:18px;
+    transition: background-color 0.5s, color 1s, border 1s ease-out;
+}
+.banner button:hover{
+    background:rgb(198, 228, 214);
+    cursor: pointer;
+    color:black;
+    border:1px solid rgb(9, 161, 92)
 }
 .banner img{
     width: 450px;
@@ -107,7 +108,7 @@ nav .nav-title{
 /* future vision section style  */
 .vision-content{
     margin-top:80px;
-    margin-bottom:40px;
+    margin-bottom:8cqb;
 }
 
 .vision-title{
@@ -134,9 +135,40 @@ nav .nav-title{
 .vision-card{
     width:32%;
     border-radius: 16px;
-    background: rgba(84, 144, 245, 0.2);
     padding:30px;
 }
+/* three card background  */
+
+.card-one{
+    background: rgba(84, 144, 245, 0.2)
+}
+.card-two{
+    background: rgb(198, 228, 214);
+}
+.card-three{
+    background: rgb(247, 235, 207);
+}
+/* btn hover effect  */
+.card-one-btn{
+    background: rgb(84, 144, 245);
+    transition: background-color 1s, border 1s ease-in-out;
+}
+.card-two-btn{
+    background: rgb(9, 161, 92);
+    transition: background-color 1s, border 1s ease-in-out;
+}
+.card-three-btn{
+    background: rgb(255, 194, 57);
+    transition: background-color 1s, border 1s ease-in-out;
+}
+.card-one-btn:hover,
+.card-two-btn:hover,
+.card-three-btn:hover{
+    background-color:transparent;
+    border:1px solid rgb(9, 161, 92);
+    cursor: pointer;
+}
+
 
 .vision-card-title{
     font-size: 20px;
@@ -266,6 +298,21 @@ nav .nav-title{
     margin-bottom:32px;
 }
 
+.news-btn{
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    transition:
+    background-color 1s, color 1s ease-in-out;
+}
+
+.news-btn:hover{
+    background-color: transparent;
+    border:1px solid rgb(0, 106, 80);
+    color: rgb(14, 14, 14);
+    cursor: pointer;
+}
+
 /* donate section style  */
 
 .donate{
@@ -301,11 +348,20 @@ nav .nav-title{
     margin-bottom: 40px;;
 }
 .amount-box{
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
+    outline: none;
     border-radius: 16px;
     background: rgb(255, 255, 255);
     width:220px;
+    transition:
+    background-color 0.5s,
+    color 05s ease-in-out;
 }
+.amount-box:hover{
+    background-color: rgb(0, 106, 80);
+    color:rgb(255, 255, 255);
+}
+
 .box-special{
     background: rgb(198, 228, 214);
 }
@@ -339,6 +395,22 @@ nav .nav-title{
     padding:10px 0px;
     border-radius: 10px;
 }
+.amount-submit{
+    color:rgb(255, 255, 255);
+    border: none;
+    outline:none;
+    background: rgb(0, 106, 80);
+    transition: 
+    background-color 0.1s , color 0.1s ease-in-out;
+    ;
+}
+.amount-submit:hover{
+    background-color: transparent;
+    color:rgb(0, 0, 0);
+    border:1px solid rgb(0, 106, 80);
+    cursor: pointer;
+}
+
 /* newsletter section  */
 .newsletter{
     border-radius: 20px;
@@ -396,6 +468,13 @@ nav .nav-title{
     padding:18px 40px;
     border-radius: 0px 10px 10px 0px;
     background: rgb(0, 106, 80);
+    transition: 
+    background-color 0.2 ease-in-out;
+    ;
+}
+.search-btn:hover{
+    background-color:rgba(71, 122, 0, 0.863);
+    cursor: pointer;
 }
 .spam{
     font-size: 16px;
@@ -411,6 +490,7 @@ footer{
     background: rgb(255, 255, 255);
     padding:50px 154px;
     text-align: center;
+    margin-top:80px;
 }
 
 .footer-content{
