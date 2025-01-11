@@ -74,6 +74,24 @@ nav .nav-title{
     font-weight: 700;
     line-height: 38px;
 }
+.sign-in{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    border:1px solid rgb(9, 161, 92);
+    transition:
+    background-color 0.1s 
+    color 0.1s ease-in-out
+    ;
+}
+
+.sign-in:hover{
+    background-color: rgb(9, 161, 92);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
 
 /* banner section style  */
 
@@ -110,7 +128,7 @@ nav .nav-title{
     background:rgb(198, 228, 214);
     cursor: pointer;
     color:black;
-    border:1px solid rgb(9, 161, 92)
+    border:1px solid rgb(9, 161, 92);
 }
 .banner img{
     width: 450px;
@@ -243,18 +261,6 @@ nav .nav-title{
     line-height: 38px;
     opacity:0.8;
 }
-
-.news-content img{
-    /* width:140px;
-    height:40px;
-    margin:12px 0px; */
-}
-.channel-box{
-    background-color: red;
-}
-/* .news-channel{
-    width:100px;
-} */
 
 .date-time{
     display: flex;
