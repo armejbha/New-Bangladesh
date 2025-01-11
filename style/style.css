@@ -217,7 +217,7 @@ nav .nav-title{
     top:15px;
     left:21px;
     width: 50px;
-    height:50px;
+    height: 50px;
     background:url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -254,7 +254,7 @@ nav .nav-title{
     background: rgb(255, 255, 255);
     margin-bottom:48px;
 }
-.news-container img{
+.news-container .news-img{
     border-radius: 20px;
 }
 
