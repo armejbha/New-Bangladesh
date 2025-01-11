@@ -290,9 +290,41 @@ input[type="text"]{
     line-height: 24px;
     letter-spacing: 0%;
     border:none;
-    outline: none;    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    outline: none; 
+       border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     color: rgba(14, 14, 14, 0.3);
     background: rgb(255, 255, 255);
     padding:10px 0px;
     border-radius: 10px;
+}
+
+
+/* footer section style  */
+
+footer{
+    background: rgb(255, 255, 255);
+    padding:50px 154px;
+    text-align: center;
+}
+
+.footer-content{
+    padding:0px 100px;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+}
+
+.straight-line{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin:32px 0px;
+}
+
+.social img{
+    margin-right:20px;
+}
+.social a{
+    text-decoration: none;
 }
