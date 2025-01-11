@@ -106,7 +106,8 @@ nav .nav-title{
 
 /* future vision section style  */
 .vision-content{
-    margin-top:120px;
+    margin-top:80px;
+    margin-bottom:40px;
 }
 
 .vision-title{
@@ -156,9 +157,50 @@ nav .nav-title{
     margin-bottom:24px;
 }
 
+/* quotation section style  */
+.quotation{
+   border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding:30px 20px;
+    position: relative;
+}
+.quote{
+    position:absolute;
+    top:10px;
+    left:21px;
+    width: 50px;
+    height:60px;
+    background:url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.quotation-details{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity: 0.8;
+}
+.quotation-name{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity:0.8;
+    margin-top:12px;
+    margin-bottom:4px;
+}
+.quotation-position{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity:0.6;
+}
 /* news section style */
 .news{
-    margin-top:120px;
+    margin-top:80px;
 }
 .news-title{
     font-size: 36px;
