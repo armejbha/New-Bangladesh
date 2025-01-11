@@ -223,3 +223,76 @@ nav .nav-title{
     letter-spacing: 0%;
     margin-bottom:32px;
 }
+
+/* donate section style  */
+
+.donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:80px 100px;
+}
+
+.donate-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+.donate-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top:22px;
+    margin-bottom:30px;
+}
+
+
+/* donate container  */
+.amount-container{
+    display: flex;
+    gap:10px;
+    margin-bottom: 40px;;
+}
+.amount-box{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width:220px;
+}
+.box-special{
+    background: rgb(198, 228, 214);
+}
+.amount{
+    padding:30px 20px;
+    font-size:36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    opacity: 0.8;
+    text-align: center;
+}
+.amount-input{
+    width: 80%;
+    margin:0px auto 30px;
+    border-radius: 5px;
+}
+
+input[type="text"]{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border:none;
+    outline: none;    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    color: rgba(14, 14, 14, 0.3);
+    background: rgb(255, 255, 255);
+    padding:10px 0px;
+    border-radius: 10px;
+}
